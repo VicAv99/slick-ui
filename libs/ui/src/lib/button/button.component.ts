@@ -1,12 +1,11 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'slick-ui',
+  selector: 'slick-btn',
   standalone: true,
-  imports: [CommonModule],
-  template: `<p>ui works!</p>`,
+  imports: [],
+  template: `<p class=" text-teal-300 uppercase">button works!</p>`,
   styles: [],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class UiComponent {}
+export class ButtonComponent {}
