@@ -5,7 +5,14 @@ const preview: Preview = {
   argTypes: {
     variant: {
       control: 'select',
-      options: ['default', 'destructive', 'outline', 'secondary', 'ghost'],
+      options: [
+        'default',
+        'destructive',
+        'outline',
+        'secondary',
+        'ghost',
+        'link',
+      ],
     },
     size: { control: 'select', options: ['default', 'sm', 'lg'] },
   },
