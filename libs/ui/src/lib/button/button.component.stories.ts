@@ -1,4 +1,4 @@
-import { Meta } from '@storybook/angular';
+import { Meta, StoryObj } from '@storybook/angular';
 import { ButtonComponent } from './button.component';
 
 export default {
@@ -6,9 +6,9 @@ export default {
   component: ButtonComponent,
 } as Meta<ButtonComponent>;
 
-export const Primary = {
+export const Primary: StoryObj<ButtonComponent> = {
   render: (args: ButtonComponent) => ({
     props: args,
+    template: `<button slick-btn variant="${args.variant}" size=${args.size}>Button</button>`,
   }),
-  args: {},
 };
