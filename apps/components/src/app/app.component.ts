@@ -1,10 +1,19 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import {
+  AccordionComponent,
+  AccordionHeaderComponent,
+  AccordionItemComponent,
+} from '@slick-ng';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [
+    RouterModule,
+    AccordionComponent,
+    AccordionItemComponent,
+    AccordionHeaderComponent,
+  ],
   selector: 'components-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
