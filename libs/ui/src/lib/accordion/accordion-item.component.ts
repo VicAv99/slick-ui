@@ -12,7 +12,7 @@ import { CdkAccordionItem } from '@angular/cdk/accordion';
     `,
   ],
   template: `
-    <div class="border-b" #body>
+    <div class="border-b">
       <ng-content select="slick-accordion-header"></ng-content>
       <div
         class="overflow-hidden text-sm transition-all hidden w-full"
