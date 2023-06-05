@@ -13,14 +13,14 @@ import { CdkAccordionItem } from '@angular/cdk/accordion';
   ],
   template: `
     <div class="border-b">
-      <ng-content select="slick-accordion-header"></ng-content>
+      <ng-content select="slick-accordion-header" />
       <div
         class="overflow-hidden text-sm transition-all hidden w-full"
         [class.active]="expanded"
         [class.animate-accordion-up]="expanded"
         [class.animate-accordion-down]="!expanded"
       >
-        <ng-content></ng-content>
+        <ng-content />
       </div>
     </div>
   `,

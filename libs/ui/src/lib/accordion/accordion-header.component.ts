@@ -16,7 +16,7 @@ import { NgIf } from '@angular/common';
     >
       <ng-content />
       <div
-        class="py-4 font-medium transition-all items-center"
+        class="py-4 font-medium transition-all"
         [class.rotate-180]="panel.expanded"
       >
         <ng-icon
