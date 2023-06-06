@@ -4,7 +4,7 @@ import { AccordionHeaderComponent } from './accordion-header.component';
 import { AccordionItemComponent } from './accordion-item.component';
 
 export default {
-  title: 'AccordionComponent',
+  title: 'Accordion',
   component: AccordionComponent,
   parameters: {
     layout: 'padded',
